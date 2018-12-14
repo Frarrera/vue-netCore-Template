@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - templateMVC</title>
+</head>
+<body>
+    <main>
+        <!-- main wrapping component -->
+        <q-layout>
+            <!-- optional -->
+            <q-layout-header>
+                <!-- content; any -->
+            </q-layout-header>
+
+            <!-- optional -->
+            <q-layout-drawer side="left">
+                <!-- content; any -->
+            </q-layout-drawer>
+
+            <!-- optional -->
+            <q-layout-drawer side="right">
+                <!-- content; any -->
+            </q-layout-drawer>
+
+            <!-- REQUIRED -->
+            <q-page-container>
+
+                <!--
+      Here it's where Vue Router injects children
+      Page components.
+
+      <router-view/> tag below can be replaced by an
+      actual page content should you wish to do so.
+    -->
+                <router-view />
+                <!--
+      First child of QPageContainer must be a QPage,
+      so make sure that your layout route children components
+      encapsulate a QPage.
+    -->
+                <h4>{{vueMessage}}</h4>
+                <q-btn>hola</q-btn>
+            </q-page-container>
+
+            <!-- optional -->
+            <q-layout-footer>
+                <!-- content; any -->
+            </q-layout-footer>
+        </q-layout>
+    </main>
+    @RenderBody()
+    <script type="text/javascript" src="~/js/app.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
