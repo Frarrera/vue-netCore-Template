@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SYTEC02\\source\\repos\\templateMVC\\templateMVC\\templateMVC.csproj",
+      "projectUniqueName": "D:\\Frarrera\\projects\\vue-netCore-Template\\templateMVC\\templateMVC.csproj",
       "projectName": "templateMVC",
-      "projectPath": "C:\\Users\\SYTEC02\\source\\repos\\templateMVC\\templateMVC\\templateMVC.csproj",
+      "projectPath": "D:\\Frarrera\\projects\\vue-netCore-Template\\templateMVC\\templateMVC.csproj",
       "packagesPath": "C:\\Users\\SYTEC02\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SYTEC02\\source\\repos\\templateMVC\\templateMVC\\obj\\",
+      "outputPath": "D:\\Frarrera\\projects\\vue-netCore-Template\\templateMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
